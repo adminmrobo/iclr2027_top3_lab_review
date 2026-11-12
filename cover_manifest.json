@@ -45,7 +45,65 @@
       "robot": "jupanbot-v2",
       "prompt_en": "16-bit RPG pixel art, bold dark outlines, 2-3 step shading, night laboratory turned into a small academic review hall, deep indigo-violet background (#1b1533 to #13141f), purple ceiling light, teal monitor glow, small neon pink and green accents.\nA long judging desk at the back right with three blank square score boards with glowing green frames (NO text, NO numbers). A huge pile of paper manuscripts in front of the desk like a small mountain.\nSix characters standing in a row in front, left to right:\n1) calm girl maid intern, long straight jet-black hair with side-swept bangs, no headdress, gray eyes, small silver drop earrings, charcoal-black long-sleeved maid dress, large gray bow, long white frilled apron, holding a small white referee flag;\n2) chibi scientist, thin teal rectangular glasses, spiky black hair with one white streak, small ponytail at the back, white lab coat over black vest and tie, raising one hand and pointing forward, faint purple sparks in the hand;\n3) girl researcher, long pink hair with two round buns and a navy streak, blue eyes, white lab coat over lavender hoodie, jeans, hugging a stack of papers, surprised eyes;\n4) small anthropomorphic fruit fly researcher, black body, big red compound eyes, blue helmet with a gold stripe and pink and blue cables, white lab coat over a black vest, black gloves, transparent wings, looking into the paper pile with a magnifying glass;\n5) boxy beige retro CRT-monitor robot, dark green screen face with mint pixel eyes and happy mouth, short antenna topped with a red-brown abacus bead, gray segmented arms, two small tank treads, holding a wooden abacus;\n6) gentle girl maid intern, long ash-beige wavy hair, white frilled maid headband with a ribbon over the left ear, amber-brown eyes, red and navy plaid bow tie, camel knit cardigan, white frilled apron, black skirt, cheering with a raised fist.\nHeight ratio: scientist 1.00, pink-haired researcher 0.90, black-haired maid 0.88, beige-haired maid 0.84, robot 0.72, fruit fly 0.41.\nIn the dark audience seats behind: three cute solid dark navy-black silhouettes with thin purple rim light, two round white dot eyes and pink blush pixels each, one with a pink ribbon, one with teal glasses glint, one with a small yellow bell. Not scary.\nKeep the top-left 40% of the image as empty dark starry sky for a title overlay.\nNo text, no letters, no numbers, no logos, no weapons, no real people or brands. 16:9.",
       "source_of": null,
-      "status": "redraw"
+      "status": "ok"
+    },
+    {
+      "id": "og",
+      "role": "og",
+      "path": "images/og_iclr27.jpg",
+      "size": [
+        1200,
+        630
+      ],
+      "characters": [
+        "doc",
+        "asst",
+        "fly",
+        "jupanbot"
+      ],
+      "robot": "jupanbot-v2",
+      "prompt_en": null,
+      "source_of": "cover",
+      "status": "ok"
+    },
+    {
+      "id": "thumb",
+      "role": "thumb",
+      "path": "images/thumb_iclr27.jpg",
+      "size": [
+        480,
+        270
+      ],
+      "characters": [
+        "doc",
+        "asst",
+        "fly",
+        "jupanbot"
+      ],
+      "robot": "jupanbot-v2",
+      "prompt_en": null,
+      "source_of": "cover",
+      "status": "ok"
+    },
+    {
+      "id": "cover_web",
+      "role": "cover",
+      "embedded_in": "index.html",
+      "key": ".cover img.cimg",
+      "size": [
+        1600,
+        900
+      ],
+      "characters": [
+        "doc",
+        "asst",
+        "fly",
+        "jupanbot"
+      ],
+      "robot": "jupanbot-v2",
+      "prompt_en": null,
+      "source_of": "cover",
+      "status": "ok"
     },
     {
       "id": "hero_bg",

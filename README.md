@@ -3,6 +3,7 @@
 ICLR 2027에서 심사위원 전원이 만점(4점)을 줬다고 알려진 논문 세 편을, 연구실 식구들(박사 · 조수 하루 · 초파리 연구원 · 주판봇 · 인턴 시아 · 인턴 모아 · 미공개 X1~X3)이 장난감 실험으로 다시 심사하는 비전공자용 해설 페이지입니다.
 
 - 페이지: `index.html` (파일 하나로 완성, 외부 요청은 글꼴 하나)
+- 표지: `images/cover_iclr27.jpg` (원본 `images/cover_web_2560x1440.png`), 공유 미리보기 `images/og_iclr27.jpg`
 - GitHub Pages: https://adminmrobo.github.io/iclr2027_top3_lab_review/ (Pages 설정 후)
 
 ## 다루는 논문
