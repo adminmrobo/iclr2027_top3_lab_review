@@ -341,6 +341,14 @@ body.gloss-off .jt{border-bottom:0;cursor:auto}
     <div class="kpi r"><b>19,525</b><span>작년(2026) 유효 제출<sup class="fn"><a href="#ref">[3]</a></sup></span></div>
     <div class="kpi g"><b>3편</b><span>전원 만점(4점) · 게시글 기준<sup class="fn"><a href="#ref">[4]</a></sup></span></div>
   </section>
+  <p class="small muted" style="margin-top:-8px">숫자 읽는 법: 초록 등록 62,000편 → 마감 후 본문 제출 40,000편 이상 → 그중 심사 대상 약 43,000편(게시글 기준) → 전원 만점 3편.</p>
+  <details><summary>바쁘신 분께 — 업무 결론 3줄</summary>
+    <ol style="margin:.4em 0 0;padding-left:1.3em">
+      <li>긴 일을 맡기는 AI는 "무엇을 지웠는지" 기록이 남는 쪽을 고르세요. 메모장을 스스로 정리하는 모델이 정확도와 비용 모두에서 앞섰습니다.</li>
+      <li>새 업무마다 AI를 다시 학습시키기 전에, 이미 배운 방법들을 미리 시뮬레이션해 고르는 방식을 검토할 만합니다.</li>
+      <li>사내 데이터로 모델을 가르칠 때는 모델 크기보다 데이터의 분류·태그 정리가 먼저입니다. 데이터는 그대로 두고 모델만 키우면 오히려 덜 넓힐 수 있습니다.</li>
+    </ol>
+  </details>
   <div class="chat">
     <div class="say" data-who="doc"><img data-who="doc" data-mood="think" alt="" aria-hidden="true"><div><b class="name">박사</b><p>4만 편이 넘는 논문 중 전원 만점은 세 편이라고 해요. 오늘은 그 셋을 우리 연구실에서 다시 심사합니다.</p></div></div>
     <div class="say" data-who="asst"><img data-who="asst" data-mood="firm" alt="" aria-hidden="true"><div><b class="name">조수(하루)</b><p>제목만 봐도 어려워요. 제가 모르는 건 끝까지 물어볼게요.</p></div></div>
@@ -425,7 +433,6 @@ body.gloss-off .jt{border-bottom:0;cursor:auto}
     <div><span class="n">2</span><h4>심사가 버티기 어려워</h4><p>2026년엔 리뷰어 18,054명이 리뷰 76,139개를 썼습니다<sup class="fn"><a href="#ref">[3]</a></sup>. 제출작의 약 20%는 심사를 맡을 저자가 없었습니다. 그래서 2027년엔 저자 1명당 20편, 처음 내는 저자는 1편으로 제한했습니다<sup class="fn"><a href="#ref">[5]</a></sup>.</p></div>
     <div><span class="n">3</span><h4>그 속에서 모두 같은 최고점</h4><p>심사위원마다 점수가 갈리기 쉬운 숲에서, 셋은 모두가 4점을 줬다고 합니다<sup class="fn"><a href="#ref">[4]</a></sup>. 왜 그렇게 봤는지는 리뷰 원문을 확인해야 합니다.</p></div>
   </div>
-  <div class="caution"><b>확인 필요:</b> "43K편 중 전원 만점 3편"과 4점 척도는 사용자가 전해 준 게시글 기준입니다. OpenReview 페이지는 이 작업 환경에서 열리지 않아 점수를 직접 확인하지 못했습니다.</div>
 </div>
 </section>
 
@@ -509,9 +516,9 @@ body.gloss-off .jt{border-bottom:0;cursor:auto}
 
   <div class="numbers"><h4><span class="label">논문의 수치</span>원문 그대로 (arXiv 공개본 기준)</h4>
     <ul>
-      <li><b>학습 없이 바로:</b> BrowseComp-Plus(긴 웹 조사 시험)에서 정답률 59.4%. 가장 강한 기존 방법보다 상대적으로 11.4% 높고, 추정 계산량은 21.5% 적었습니다<sup class="fn"><a href="#ref">[6]</a></sup>.</li>
+      <li><b>학습 없이 바로:</b> BrowseComp-Plus(긴 웹 조사 <span class="jt" data-t="벤치마크">시험</span>)에서 정답률 59.4%. 가장 강한 기존 방법보다 상대적으로 11.4% 높고, 추정 계산량은 21.5% 적었습니다<sup class="fn"><a href="#ref">[6]</a></sup>.</li>
       <li><b>지시문 다듬기:</b> 메모장 관리 요령을 글로 다듬어 주자, 처음 보는 과제의 정확도가 최대 35.9점 올랐습니다<sup class="fn"><a href="#ref">[6]</a></sup>.</li>
-      <li><b>강화학습 뒤:</b> Qwen3.5-9B 모델의 BrowseComp-Plus 점수가 28.8%에서 42.5%로 올랐습니다(상대 47.6% 향상). 계산량은 12% 줄었습니다<sup class="fn"><a href="#ref">[6]</a></sup><sup class="fn"><a href="#ref">[7]</a></sup>.</li>
+      <li><b>강화학습 뒤:</b> <span class="jt" data-t="Qwen">Qwen3.5-9B</span> 모델의 BrowseComp-Plus 점수가 28.8%에서 42.5%로 올랐습니다(상대 47.6% 향상). 계산량은 12% 줄었습니다<sup class="fn"><a href="#ref">[6]</a></sup><sup class="fn"><a href="#ref">[7]</a></sup>.</li>
       <li><b>여러 에이전트:</b> 24시간짜리 소프트웨어 과제(에이전트 6개)에서 요약 방식보다 65% 큰 속도 향상을 냈습니다. 정확도가 아니라 속도 지표입니다<sup class="fn"><a href="#ref">[6]</a></sup>.</li>
     </ul>
     <p class="small muted">검산: (42.5 − 28.8) ÷ 28.8 = 0.476 → 47.6%. ICLR 제출본은 공개본과 세부가 다를 수 있습니다.</p>
@@ -548,7 +555,7 @@ body.gloss-off .jt{border-bottom:0;cursor:auto}
       <ol>
         <li><b>문제:</b> 로봇에게 새 목표(점수 규칙)를 줄 때마다 다시 학습시키면 오래 걸립니다.</li>
         <li><b>앞 방법의 한계:</b> <span class="jt" data-t="제로샷 강화학습">제로샷 강화학습</span>은 미리 배운 여러 <span class="jt" data-t="습관">습관</span> 중 하나를 바로 고릅니다. 고르는 감이 어긋나면 엉뚱한 습관을 꺼냅니다.</li>
-        <li><b>해법:</b> <span class="jt" data-t="머릿속 시뮬레이터">머릿속 시뮬레이터</span>로 습관마다 미리 굴려 보고, 새 목표 점수가 가장 높은 습관을 고릅니다. 머릿속 좌표는 <span class="jt" data-t="종 모양 정돈">종 모양으로 정돈</span>해 예측이 덜 빗나가게 합니다.</li>
+        <li><b>해법:</b> <span class="jt" data-t="머릿속 시뮬레이터">머릿속 시뮬레이터</span>로 습관마다 미리 굴려 보고, 새 목표 점수가 가장 높은 습관을 고릅니다. 머릿속 좌표는 <span class="jt" data-t="종 모양 정돈">종 모양으로 정돈</span>합니다. 그 덕에 예측이 덜 빗나간다는 설명은 이 페이지의 추정입니다(원문 미확인).</li>
       </ol>
       <p class="easy">쉽게 말하면, 바둑 기사가 돌을 놓기 전에 머릿속으로 몇 수 앞을 둬 보는 것입니다.</p>
     </div>
@@ -563,7 +570,7 @@ body.gloss-off .jt{border-bottom:0;cursor:auto}
         <tr><td>r</td><td>새 과제의 점수 규칙(보상)</td></tr>
         <tr><td>argmax<sub>k</sub></td><td>점수가 가장 큰 k를 고른다</td></tr></table></div>
       <div class="try"><b>숫자로 한 번 해 보기:</b> 습관 A·B·C의 예상 점수 합이 4.1, 6.3, 5.2라면 가장 큰 6.3의 B를 고릅니다. <span class="small muted">(예시값)</span></div>
-      <div class="ask" style="margin-top:10px"><img data-who="asst" data-mood="spark" alt="" aria-hidden="true"><p>결국 "미리 해 보고 제일 좋은 걸 고른다"네요. 종 모양은 미리 해 보기가 덜 틀리게 돕는 거고요!</p></div>
+      <div class="ask" style="margin-top:10px"><img data-who="asst" data-mood="spark" alt="" aria-hidden="true"><p>결국 "미리 해 보고 제일 좋은 걸 고른다"네요. 종 모양이 어떻게 돕는지는 원문을 봐야 알겠지만요!</p></div>
     </div>
   </div>
 
@@ -623,7 +630,7 @@ body.gloss-off .jt{border-bottom:0;cursor:auto}
       <ol>
         <li><b>문제:</b> 사람은 "울새에게 종자뼈가 있다"를 들으면 참새로는 쉽게 넓히고 고래로는 덜 넓힙니다. 언어모델도 이렇게 <span class="jt" data-t="새 사실 번지기">새 사실을 번지게</span> 할까요?</li>
         <li><b>앞 방법의 한계:</b> 다 자란 모델만 시험해서는 이 능력이 언제, 어떻게 생기는지 알 수 없습니다.</li>
-        <li><b>해법:</b> 가짜 생물들로 <span class="jt" data-t="숨은 족보">숨은 족보</span>를 만들고, 사전학습 도중에 사실을 넣었습니다. Pythia·OLMo 2 모델(70M~7B)에서 번지는 모습을 추적했습니다<sup class="fn"><a href="#ref">[8]</a></sup>.</li>
+        <li><b>해법:</b> 가짜 생물들로 <span class="jt" data-t="숨은 족보">숨은 족보</span>를 만들고, <span class="jt" data-t="사전학습">사전학습</span> 도중에 사실을 넣었습니다. <span class="jt" data-t="Pythia·OLMo 2">Pythia·OLMo 2</span> 모델(70M~7B, <span class="jt" data-t="파라미터">파라미터</span> 수)에서 번지는 모습을 추적했습니다<sup class="fn"><a href="#ref">[8]</a></sup>.</li>
       </ol>
       <p class="easy">쉽게 말하면, 새 직원이 "영업1팀은 금요일 재택"을 들었을 때 영업1팀 모두에게 적용하는지 지켜보는 실험입니다.</p>
     </div>
@@ -670,7 +677,7 @@ body.gloss-off .jt{border-bottom:0;cursor:auto}
 
   <div class="numbers"><h4><span class="label">논문의 결과</span>원문 초록 기준</h4>
     <ul>
-      <li>다음 토큰 예측만으로 족보를 따르는 번지기가 생깁니다. 한 대상에 배운 성질이 다른 무리보다 같은 무리 안으로 더 강하게 옮겨 갑니다<sup class="fn"><a href="#ref">[8]</a></sup>.</li>
+      <li>다음 <span class="jt" data-t="토큰">토큰</span> 예측만으로 족보를 따르는 번지기가 생깁니다. 한 대상에 배운 성질이 다른 무리보다 같은 무리 안으로 더 강하게 옮겨 갑니다<sup class="fn"><a href="#ref">[8]</a></sup>.</li>
       <li>모델 내부에서 더 깊은 무리를 공유하는 대상끼리 더 닮아 가고, 군집으로 묶으면 족보 전체가 복원됩니다<sup class="fn"><a href="#ref">[8]</a></sup>.</li>
       <li>데이터 양을 고정하면 모델이 클수록 번지기가 약해집니다. 논문은 큰 모델이 사실을 하나하나 외우는 쪽으로 기운다고 해석했습니다<sup class="fn"><a href="#ref">[8]</a></sup>.</li>
       <li>사실을 넣기 전에 사전학습을 더 할수록 번지기가 강해지고, 문맥에서 처음 본 성질에도 옮겨 갑니다. 프롬프트가 다른 족보를 암시하면 그쪽으로 덮어쓸 수 있습니다<sup class="fn"><a href="#ref">[8]</a></sup>.</li>
@@ -720,7 +727,7 @@ body.gloss-off .jt{border-bottom:0;cursor:auto}
       <div class="say verdict" data-who="doc"><img data-who="doc" data-mood="judge" alt="" aria-hidden="true"><div><b class="name">박사</b><p></p></div></div>
       <p class="small muted" id="guessNote"></p>
     </div>
-    <p class="small muted">장난감 모형의 숫자입니다. 결과의 방향만 논문과 맞췄습니다.</p>
+    <p class="small muted">장난감 모형의 숫자입니다. 이 모형은 논문 결과(데이터 고정 시 큰 모델일수록 번지기가 약함)를 따라 하도록 만든 식이라, 승패의 방향은 논문이 정한 것입니다. 번지기 점수는 이 페이지가 정의한 설명용 지표입니다.</p>
   </div>
 </div>
 </section>
@@ -874,7 +881,7 @@ var T1={STEPS:40, CAP:12, CLUES:8,
   /* mode: 'append' 그냥 쌓기 · 'rule' 규칙 요약 · 'clm' 스스로 편집. skill: 편집 실력 0~1 */
   run:function(seed,mode,skill,trace){var s=T1.stream(seed), r=rng(seed*7+3), ctx=[], cost=0, frames=[];
     for(var i=0;i<s.length;i++){var it={clue:s[i].clue,id:s[i].id,sum:false};
-      if(mode==='clm'){ var u=r(); if(!it.clue && u<0.2+0.7*skill){ /* 잡음은 바로 지운다 */ } else if(it.clue && u<0.4*(1-skill)){ /* 실력이 낮으면 단서를 잡음으로 착각해 지운다 */ } else ctx.push(it);
+      if(mode==='clm'){ var u=r(); if(!it.clue && u<0.5+0.45*skill){ /* 잡음은 바로 지운다 */ } else if(it.clue && u<0.4*(1-skill)){ /* 실력이 낮으면 단서를 잡음으로 착각해 지운다 */ } else ctx.push(it);
         if(ctx.length>T1.CAP){var j=-1; for(var q=0;q<ctx.length;q++){ if(!ctx[q].clue){j=q;break;} } ctx.splice(j>=0?j:0,1);} }
       else { ctx.push(it);
         if(mode==='rule' && (i+1)%10===0){ var keep=[]; ctx.forEach(function(c){ if(c.sum) keep.push(c); else if(c.clue && r()<0.6) keep.push({clue:true,id:c.id,sum:true}); });
@@ -961,7 +968,13 @@ var GL={
   '머릿속 시뮬레이터':['머릿속 시뮬레이터 = 잠재 동역학','용어','실제로 움직이지 않고 "이렇게 하면 다음엔 이렇게 된다"를 요약된 좌표 위에서 예측하는 모델.'],
   '종 모양 정돈':['종 모양 정돈 = 가우시안 정규화','용어','머릿속 좌표가 평균 0 근처의 종 모양 분포로 고르게 모이도록 학습 때 잡아 주는 것. 좌표가 엉뚱한 곳으로 튀지 않게 한다.'],
   '새 사실 번지기':['새 사실 번지기 = 속성 귀납','용어','한 대상에게 배운 성질을 비슷한 다른 대상에도 있다고 넓혀 보는 추론.'],
-  '숨은 족보':['숨은 족보 = 잠재 분류 체계','용어','데이터에 직접 적혀 있지 않지만 함께 나오는 성질들로 드러나는 무리·하위 무리의 계층 구조.']
+  '숨은 족보':['숨은 족보 = 잠재 분류 체계','용어','데이터에 직접 적혀 있지 않지만 함께 나오는 성질들로 드러나는 무리·하위 무리의 계층 구조.'],
+  '사전학습':['사전학습','방법','특정 일을 가르치기 전에 대량의 글로 다음 단어 맞히기를 먼저 익히는 단계. 언어모델의 바탕 지식이 여기서 생긴다.'],
+  '파라미터':['파라미터','용어','모델 안의 조절 손잡이(숫자). 70M은 7천만 개, 7B는 70억 개. 많을수록 큰 모델이다.'],
+  '토큰':['토큰','용어','언어모델이 글을 읽는 단위. 단어나 단어 조각 하나쯤이다.'],
+  '벤치마크':['벤치마크','용어','여러 모델을 같은 문제로 채점해 비교하는 공개 시험 문제 모음.'],
+  'Pythia·OLMo 2':['Pythia · OLMo 2','용어','연구용으로 학습 과정과 데이터를 공개한 언어모델 묶음. 학습 도중의 모습을 들여다보기 좋다.'],
+  'Qwen':['Qwen3.5-9B','용어','알리바바가 공개한 언어모델 계열. 9B는 파라미터 90억 개라는 뜻.']
 };
 (function(){var tip=$('#tip'), cur=null;
   function show(el){var g=GL[el.dataset.t]; if(!g||document.body.classList.contains('gloss-off')) return; cur=el;
@@ -1028,7 +1041,7 @@ $('#xBtn').addEventListener('click',function(){var on=this.getAttribute('aria-pr
     /* 심사석 책상과 점수판 4 · 4 · 4 */
     var dw=Math.min(W*0.5,520), dx=W*0.5+W*0.08, dy=H*0.18;
     for(var k=0;k<3;k++){var bx=dx+k*(dw/3.2), by=dy; x.fillStyle='#25283a'; x.strokeStyle='#5ee39c'; x.lineWidth=2; rr(x,bx,by,dw/4,dw/4.6,10); x.fill(); x.stroke();
-      x.fillStyle='#5ee39c'; x.font='700 '+Math.round(dw/7)+'px '+FONT; x.textAlign='center'; x.fillText('4',bx+dw/8,by+dw/5.6);}
+      x.fillStyle='#5ee39c'; x.font='700 '+Math.round(dw/7)+'px '+FONT; x.textAlign='center'; x.fillText('★',bx+dw/8,by+dw/5.8);}
     x.fillStyle='#1c1e2d'; x.fillRect(0,H*0.82,W,H*0.18); x.fillStyle='#363a52'; x.fillRect(0,H*0.82,W,2);}
   addMod(c,draw); draw(0);})();
 
